@@ -5,7 +5,8 @@
         "bg": {
           "default": {
             "value": "{pallet.ref.color.white.100}",
-            "type": "color"
+            "type": "color",
+            "description": "The default background color, used for most screens and rows."
           },
           "subdued": {
             "value": "{pallet.ref.color.grey.3}",
