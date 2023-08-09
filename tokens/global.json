@@ -1,5 +1,5 @@
 {
-  "pallet": {
+  "p": {
     "ref": {
       "color": {
         "grey": {
@@ -15,8 +15,24 @@
             "value": "#E3E3E3",
             "type": "color"
           },
+          "20": {
+            "value": "#C7C7C7",
+            "type": "color"
+          },
+          "30": {
+            "value": "#ABABAB",
+            "type": "color"
+          },
+          "40": {
+            "value": "#919191",
+            "type": "color"
+          },
           "50": {
             "value": "#757575",
+            "type": "color"
+          },
+          "60": {
+            "value": "#5E5E5E",
             "type": "color"
           },
           "70": {
@@ -25,6 +41,10 @@
           },
           "80": {
             "value": "#2E2E2E",
+            "type": "color"
+          },
+          "90": {
+            "value": "#171717",
             "type": "color"
           }
         },
@@ -35,32 +55,12 @@
           }
         },
         "black": {
-          "30": {
-            "value": "#AAAAAA",
-            "type": "color"
-          },
-          "40": {
-            "value": "#939393",
-            "type": "color"
-          },
-          "50": {
-            "value": "#797979",
-            "type": "color"
-          },
-          "90": {
-            "value": "#181818",
-            "type": "color"
-          },
           "100": {
             "value": "#000000",
             "type": "color"
           }
         },
         "blue": {
-          "5": {
-            "value": "#E5F4FF",
-            "type": "color"
-          },
           "10": {
             "value": "#C6E8FF",
             "type": "color"
@@ -97,6 +97,12 @@
           },
           "50": {
             "value": "#EA1000",
+            "type": "color"
+          }
+        },
+        "teal": {
+          "5": {
+            "value": "#E5F6F4",
             "type": "color"
           }
         }
