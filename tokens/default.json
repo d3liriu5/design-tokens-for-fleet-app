@@ -1,0 +1,26 @@
+{
+  "p": {
+    "ref": {
+      "space": {
+        "edge": {
+          "margin": {
+            "value": "{p.ref.space.5}",
+            "type": "spacing"
+          }
+        },
+        "button": {
+          "default": {
+            "value": "{p.ref.space.3} {p.ref.space.4} {p.ref.space.3} {p.ref.space.4}",
+            "type": "spacing"
+          }
+        },
+        "row": {
+          "notifications": {
+            "value": "{p.ref.space.3} {p.ref.space.edge.margin} {p.ref.space.4} {p.ref.space.edge.margin}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  }
+}

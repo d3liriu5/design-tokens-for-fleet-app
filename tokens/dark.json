@@ -20,7 +20,7 @@
             "type": "color"
           },
           "cardhighlight": {
-            "value": "{p.ref.color.grey.70}",
+            "value": "{p.ref.color.black.100}",
             "type": "color"
           },
           "primary": {

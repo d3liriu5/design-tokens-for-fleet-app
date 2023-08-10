@@ -152,6 +152,40 @@
           "value": "9999",
           "type": "borderRadius"
         }
+      },
+      "space": {
+        "1": {
+          "value": "4",
+          "type": "spacing"
+        },
+        "2": {
+          "value": "8",
+          "type": "spacing"
+        },
+        "3": {
+          "value": "12",
+          "type": "spacing"
+        },
+        "4": {
+          "value": "16",
+          "type": "spacing"
+        },
+        "5": {
+          "value": "20",
+          "type": "spacing"
+        },
+        "6": {
+          "value": "24",
+          "type": "spacing"
+        },
+        "7": {
+          "value": "28",
+          "type": "spacing"
+        },
+        "8": {
+          "value": "32",
+          "type": "spacing"
+        }
       }
     }
   }
