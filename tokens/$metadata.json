@@ -4,6 +4,9 @@
     "light",
     "dark",
     "default",
-    "comfortable"
+    "comfortable",
+    "small",
+    "medium",
+    "large"
   ]
 }

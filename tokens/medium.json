@@ -1,0 +1,57 @@
+{
+  "p": {
+    "fleetapp": {
+      "type": {
+        "heading": {
+          "default": {
+            "value": {
+              "fontFamily": "{p.ref.fontFamily}",
+              "fontWeight": "{p.ref.fontWeight.semibold}",
+              "lineHeight": "{p.ref.lineHeight.1_75}",
+              "fontSize": "{p.ref.fontSize.1_5}"
+            },
+            "type": "typography"
+          },
+          "medium": {
+            "value": {
+              "fontFamily": "{p.ref.fontFamily}",
+              "fontWeight": "{p.ref.fontWeight.medium}",
+              "lineHeight": "{p.ref.lineHeight.1_75}",
+              "fontSize": "{p.ref.fontSize.1_25}"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "{p.ref.fontFamily}",
+              "fontWeight": "{p.ref.fontWeight.medium}",
+              "lineHeight": "{p.ref.lineHeight.1_5}",
+              "fontSize": "{p.ref.fontSize.1_125}"
+            },
+            "type": "typography"
+          },
+          "xsmall": {
+            "value": {
+              "fontFamily": "{p.ref.fontFamily}",
+              "fontWeight": "{p.ref.fontWeight.semibold}",
+              "lineHeight": "{p.ref.lineHeight.1_25}",
+              "fontSize": "{p.ref.fontSize.0_875}"
+            },
+            "type": "typography"
+          }
+        },
+        "body": {
+          "default": {
+            "value": {
+              "fontFamily": "{p.ref.fontFamily}",
+              "fontWeight": "{p.ref.fontWeight.regular}",
+              "lineHeight": "{p.ref.lineHeight.1_5}",
+              "fontSize": "{p.ref.fontSize.1_0}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  }
+}
