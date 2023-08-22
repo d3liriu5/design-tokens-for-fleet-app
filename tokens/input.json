@@ -1,0 +1,188 @@
+{
+  "fleetapp": {
+    "color": {
+      "bg": {
+        "default": {
+          "value": "{p.ref.color.white.100}",
+          "type": "color",
+          "description": "The default background color, used for most screens and rows.",
+          "failedToResolve": true
+        },
+        "subdued": {
+          "value": "{p.ref.color.grey.3}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "input": {
+          "value": "{p.ref.color.white.100}",
+          "type": "color",
+          "subdued": {
+            "value": "#",
+            "type": "color"
+          },
+          "failedToResolve": true
+        },
+        "card": {
+          "value": "{p.ref.color.white.100}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "cardhighlight": {
+          "value": "{p.ref.color.grey.5}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "primary": {
+          "value": "{p.ref.color.blue.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "secondary": {
+          "value": "{p.ref.color.grey.5}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "active": {
+          "value": "{p.ref.color.grey.90}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "avatar": {
+          "value": "{p.ref.color.grey.10}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "inputalt": {
+          "value": "{p.ref.color.grey.5}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "highlight": {
+          "value": "{p.ref.color.teal.5}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "critical": {
+          "value": "{p.ref.color.red.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "disabled": {
+          "value": "{p.ref.color.grey.5}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{p.ref.color.grey.90}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "subdued": {
+          "value": "{p.ref.color.grey.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "highlightactive": {
+          "value": "{p.ref.color.blue.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "interactive": {
+          "value": "{p.ref.color.blue.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "placeholder": {
+          "value": "{p.ref.color.grey.30}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "inverse": {
+          "value": "{p.ref.color.white.100}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "critical": {
+          "value": "{p.ref.color.red.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "on": {
+          "bold": {
+            "value": "{p.ref.color.white.100}",
+            "type": "color",
+            "failedToResolve": true
+          },
+          "highlight": {
+            "value": "{p.ref.color.grey.60}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{p.ref.color.grey.10}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "interactive": {
+          "value": "{p.ref.color.blue.50}",
+          "type": "color",
+          "failedToResolve": true
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{p.ref.color.white.100}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "interactive": {
+          "value": "{p.ref.color.blue.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "success": {
+          "value": "{p.ref.color.green.30}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "warning": {
+          "value": "{p.ref.color.orange.30}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "critical": {
+          "value": "{p.ref.color.red.50}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "subdued": {
+          "value": "{p.ref.color.grey.40}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "active": {
+          "value": "{p.ref.color.green.30}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "inactive": {
+          "value": "{p.ref.color.grey.10}",
+          "type": "color",
+          "failedToResolve": true
+        },
+        "on": {
+          "bold": {
+            "value": "{p.ref.color.white.100}",
+            "type": "color",
+            "failedToResolve": true
+          }
+        }
+      }
+    }
+  }
+}
