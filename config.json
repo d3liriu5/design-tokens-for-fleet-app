@@ -1,14 +1,27 @@
 {
-  "source": ["tokens/**/*.json"],
+  "source": ["input/**/*.json"],
   "platforms": {
     "css": {
       "transformGroup": "css",
       "files": [
         {
-          "destination": "css/variables.css",
+          "destination": "output/css/variables.css",
           "format": "css/variables"
         }
       ]
+    },
+    "android": {
+      "transformGroup": "android",
+      "files": [{
+        "destination": "output/android/font_dimens.xml",
+        "format": "android/fontDimens"
+      },{
+        "destination": "output/android/dimens.xml",
+        "format": "android/dimens"
+      },{
+        "destination": "output/android/colors.xml",
+        "format": "android/colors"
+      }]
     }
   }
 }
