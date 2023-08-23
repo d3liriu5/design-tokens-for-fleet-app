@@ -16,6 +16,6 @@ jobs:
       - name: Install Node Dependencies
         run: npm install style-dictionary
       - name: Convert tokens with Style Dictionary
-        run: npx style-dictionary build --config config.js
+        run: npm run build
       - name: Commit all changed files back to the repository
         uses: stefanzweifel/git-auto-commit-action@v4
