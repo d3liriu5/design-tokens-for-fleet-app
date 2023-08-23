@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "style-dictionary": "^3.8.0"
-  }
+  },
   "script": {
     "build": "style-dictionary build",
     "clean": "rm -rf build"
