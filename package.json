@@ -2,4 +2,8 @@
   "dependencies": {
     "style-dictionary": "^3.8.0"
   }
+  "script": {
+    "build": "node ./build.js",
+    "clean": "rm -rf build"
+  }
 }
