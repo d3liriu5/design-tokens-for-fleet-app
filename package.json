@@ -3,7 +3,7 @@
     "style-dictionary": "^3.8.0"
   }
   "script": {
-    "build": "node ./build.js",
+    "build": "style-dictionary build",
     "clean": "rm -rf build"
   }
 }
