@@ -17,10 +17,7 @@ jobs:
       - uses: actions/checkout@v3
       - name: Install Node Dependencies
         run: npm install style-dictionary
-      - name: Copy tokens into input directory
-        run: cp *.json input
-        shell: bash
       - name: Convert tokens with Style Dictionary
-        run: npx style-dictionary build --config config.json
+        run: node build
       - name: Commit all changed files back to the repository
         uses: stefanzweifel/git-auto-commit-action@v4
