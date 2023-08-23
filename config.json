@@ -3,13 +3,18 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "files": [
-        {
-          "destination": "output/css/variables.css",
-          "format": "css/variables"
-        }
-      ]
+      "buildPath": `build/css/`,
+      "files": tokens.map((tokenCategory) => ({
+        "destination": `output/css/${tokenCategory}.css`,
+        "format": "css/variables",
+        "filter": {
+          attributes: {
+            category: tokenCategory,
+          }
+        },
+      })),
     },
+
     "android": {
       "transformGroup": "android",
       "files": [{
