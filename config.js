@@ -16,7 +16,7 @@ module.exports = {
       buildPath: `build/`,
       files: files.map((filePath) => {
         return {
-          destination: `${filePath}.css`,
+          destination: `output/${filePath}.css`,
           format: `css/variables`,
           filter: (token) => token.filePath.includes(filePath),
         };
