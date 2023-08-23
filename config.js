@@ -7,9 +7,6 @@ const files = glob
 
 module.exports = {
   source: [`tokens/**/*`],
-  transform: {
-    testTransform: require('./transforms/testTransform'),
-  },
   platforms: {
     css: {
       transformGroup: `css`,
