@@ -1,0 +1,23 @@
+/**
+ * Do not edit directly
+ * Generated on Wed, 23 Aug 2023 09:48:53 GMT
+ */
+
+:root {
+  --p-fleetapp-type-heading-default: [object Object];
+  --p-fleetapp-type-heading-medium: [object Object];
+  --p-fleetapp-type-heading-small: [object Object];
+  --p-fleetapp-type-heading-xsmall: [object Object];
+  --p-fleetapp-type-body-default: [object Object];
+  --p-fleetapp-type-body-listitem: [object Object];
+  --p-fleetapp-type-body-selector: [object Object];
+  --p-fleetapp-type-body-selectoractive: [object Object];
+  --p-fleetapp-type-label-default: [object Object];
+  --p-fleetapp-type-button-default: [object Object];
+  --p-fleetapp-type-button-subdued: [object Object];
+  --p-fleetapp-type-button-inline: [object Object];
+  --p-ref-spacing-edge-margin: 20;
+  --p-ref-spacing-button-default: 12 16 12 16;
+  --p-ref-spacing-row-notifications: 12 20 16 20;
+  --p-ref-spacing-row-topnav: 12 16 12 16;
+}
